@@ -2,7 +2,10 @@
 
 This is a mod for **The Long Dark** by Hinterland Games Studio, Inc.
 
-It allows to look out the back window in cars by increasing the horizontal movement range.
+Allows the player to look around in cars "almost" freely.
+
+Technical:
+`__instance.m_YawLimitDegrees = new Vector2(-175, 175);`
 
 ## Installation
 
