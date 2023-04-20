@@ -4,19 +4,24 @@
 	"url": "https://github.com/WulfMarius/Free-Look-In-Cars",
 	"releases": [
 		{
-			"version": "2.0.0",
-			"url": "https://github.com/WulfMarius/Free-Look-In-Cars/releases/tag/2.0.0",
-			"changes": "updated to work with TLD V1.27",
+			"version": "4.0.0.1",
+			"url": "https://github.com/Arkhorse/Free-Look-In-Cars/releases/download/TLD-Post-DLC",
+			"changes": "Updated to work with TLD V2.12",
 			"dependencies": [],
 			"assets": [
 				{
-					"url": "https://github.com/WulfMarius/Free-Look-In-Cars/releases/download/2.0.0/Free-Look-In-Cars-V2.0.0.zip"
+					"url": "https://github.com/Arkhorse/Free-Look-In-Cars/releases/download/TLD-Post-DLC/Free-Look-In-Cars.7z"
 				}
 			]
-		}, {
+		},
+		{
 			"version": "3.0.0"
-		}, {
+		},
+		{
 			"version": "3.0.1"
+		},
+		{
+			"version": "4.0.0.1"
 		}
 	]
 }
