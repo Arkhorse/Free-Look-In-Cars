@@ -39,7 +39,9 @@
 			},
 			"updater": {
 				"enable": true,
-				"downloads": []
+				"downloads": [
+					"Free-Look-In-Cars.dll"
+				]
 			},
 			"aliases": []
 		}
