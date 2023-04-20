@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("FreeLookInCars")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Allows the player to look freely in cars")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("FreeLookInCars")]
@@ -12,7 +12,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
 [assembly: Guid("bc320585-8c10-4ece-99a4-1c57d170e828")]
-[assembly: AssemblyVersion("4.0.0.0")]
-[assembly: AssemblyFileVersion("4.0.0.0")]
-[assembly: MelonModInfo(typeof(FreeLookInCars.Implementation), "FreeLookInCars", "4.0.0", "WulfMarius, zeobviouslyfakeacc")]
-[assembly: MelonModGame("Hinterland", "TheLongDark")]
+[assembly: AssemblyVersion("4.0.0.1")]
+[assembly: AssemblyFileVersion("4.0.0.1")]
+[assembly: MelonInfo(typeof(FreeLookInCars.Implementation), "FreeLookInCars", "4.0.1", "WulfMarius, zeobviouslyfakeacc, The Illusion")]
+[assembly: MelonGame("Hinterland", "TheLongDark")]

@@ -1,13 +1,14 @@
-﻿using MelonLoader;
+﻿using System.Reflection;
 using UnityEngine;
+using MelonLoader;
 
 namespace FreeLookInCars
 {
     internal class Implementation : MelonMod
     {
-        public override void OnApplicationStart()
+        public override void OnInitializeMelon()
         {
-            Debug.Log($"[{InfoAttribute.Name}] Version {InfoAttribute.Version} loaded!");
+            MelonLogger.Msg($"[{Assembly.GetExecutingAssembly().GetName().Name}] Version {Assembly.GetExecutingAssembly().GetName().Version} loaded!");
         }
     }
 }
