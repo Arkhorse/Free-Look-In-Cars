@@ -1,0 +1,47 @@
+{
+	"version": "2",
+	"author": "The Illusion",
+	"authorURL": "https://github.com/Arkhorse",
+	"supportURL": "https://paypal.me/Arkhorse",
+	"mods": [
+		{
+			"type": "mod",
+			"version": "4.0.0.1",
+			"name": "Free-Look-In-Cars",
+			"displayName": "Free Look in Cars",
+			"author": "The Illusion",
+			"previousAuthors": "WulfMarius, zeobviouslyfakeacc",
+			"released": "2017-08-11",
+			"updated": "2023-04-20",
+			"downloadURL": "https://github.com/Arkhorse/Free-Look-In-Cars/releases/download/TLD-Post-DLC/Free-Look-In-Cars.7z",
+			"modURL": "https://github.com/Arkhorse/Free-Look-In-Cars",
+			"description": "Allows you to look around \"almost\" freely in cars. Prevents fully turning around currently (uses 175 - -175)",
+			"tags": "",
+			"categories": [
+				"Quality of Life"
+			],
+			"gameversion": [
+				"vanilla",
+				"tftft"
+			],
+			"images": [],
+			"dependencies": [],
+			"status": {
+				"working": true,
+				"beta": false,
+				"patchnotes": "- Changed OnApplicationStart() to OnInitializeMelon()\n- Changed Debug.Log() to MelonLogger.Msg() - Updated logging to use assembly data\n- Changed Harmony to HarmonyLib\n",
+				"notes": "",
+				"issues": ""
+			},
+			"testedon": {
+				"tldversion": "2.12",
+				"mlversion": "6.0.1"
+			},
+			"updater": {
+				"enable": true,
+				"downloads": []
+			},
+			"aliases": []
+		}
+	]
+}
