@@ -1,15 +1,14 @@
-﻿using HarmonyLib;
-using Il2Cpp;
-using UnityEngine;
-
-namespace FreeLookInCars
+﻿namespace FreeLookInCars
 {
-    [HarmonyPatch(typeof(PlayerInVehicle), "EnterVehicle")]
-    public class PlayerInVehicle_EnterVehicle
+    [HarmonyPatch(typeof(PlayerInVehicle), nameof(PlayerInVehicle.EnterVehicle))]
+    internal class PlayerInVehicle_EnterVehicle
     {
-        public static void Postfix(PlayerInVehicle __instance)
+        private static void Postfix(PlayerInVehicle __instance)
         {
-            __instance.m_YawLimitDegrees = new Vector2(-175, 175);
+            __instance.m_YawLimitDegrees    = __instance.m_StartYawLimit;
+            __instance.m_PitchLimitDegrees  = __instance.m_StartPitchLimit;
+            //__instance.m_YawLimitDegrees = new Vector2(-180, 180);
+            //__instance.m_PitchLimitDegrees = new Vector2(-90, 90);
         }
     }
 }
