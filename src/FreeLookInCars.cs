@@ -1,10 +1,13 @@
-﻿using System.Reflection;
-using UnityEngine;
-using MelonLoader;
+﻿global using System.Reflection;
+global using System.Runtime.InteropServices;
+global using Il2Cpp;
+global using HarmonyLib;
+global using MelonLoader;
+global using UnityEngine;
 
 namespace FreeLookInCars
 {
-    internal class Implementation : MelonMod
+    internal class FreeLookInCars : MelonMod
     {
         public override void OnInitializeMelon()
         {
